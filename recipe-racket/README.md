@@ -26,8 +26,10 @@ Docker metadata:
 - `Dockerfile` -- specification for image
 - `.dockerignore` -- eg, omit `Dockerfile`, `.git` directories
 
-file using crypto
-mypkg - ???
-gmp-lib, asn1-lib
-redex-lib
+- `test.rkt`
+- `digest-message.rkt`
+
+# Commands
+
+    docker build -t artifact .
 
